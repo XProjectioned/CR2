@@ -16,7 +16,6 @@ nav{
     background-color: #252525;
     height: 5%;
     width: 100%;
-    top: 0;
   }
   nav > ul{
     list-style-type: none;
@@ -34,6 +33,7 @@ nav{
   nav > ul > li > a{
     color: #f8f8f8;
     padding: 15px;
+    margin: 0 -2px 0 -2px;
     text-align: center;
     text-decoration: none;
     display: block;
@@ -47,3 +47,36 @@ nav{
       border-bottom: 5px solid #a8a8a8;
   }
 
+  /* Section left */
+  #divleft{
+    float: left;
+    width: 30%;
+    background-color: #f8f8f8;
+  }
+  #divleft > h1{
+    font-size: 2.5em;
+    background-color: #a8a8a8;
+    width: 80%;
+    padding-left: 5%;
+    margin-bottom: 0;
+  }
+  #divleft > h5{
+    padding-left: 5%;
+    font-size: 1.2em;
+    margin-top: 5%;
+    width: 20%;
+    background-color: #a8a8a8;
+  }
+  #divleft > p{
+    padding-left: 5%;
+    font-size: 1.2em;
+  }
+  #imgright{
+    float: right;
+    width: 70%;
+  }
+
+  /* Section right */
+  #divright{
+
+  }
