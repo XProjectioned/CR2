@@ -116,6 +116,9 @@ nav{
   }
 
   /* Reflections.html */
+  .hiddenGridItem{
+    opacity: 0;
+  }
   #reflectionsBackground{
     background-image: url(../assets/images/1888379.png);
     background-repeat: no-repeat;
