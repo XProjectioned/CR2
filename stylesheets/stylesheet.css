@@ -116,9 +116,6 @@ nav{
   }
 
   /* Reflections.html */
-  .hiddenGridItem{
-    opacity: 0 !important;
-  }
   #reflectionsBackground{
     background-image: url(../assets/images/1888379.png);
     background-repeat: no-repeat;
@@ -140,6 +137,9 @@ nav{
   }
   .grid-container > div > h1{
     text-decoration: underline #a8a8a8;
+  }
+  .hiddenGridItem{
+    opacity: 0 !important;
   }
 
   /* Y Snap Scroll
