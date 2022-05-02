@@ -117,7 +117,7 @@ nav{
 
   /* Reflections.html */
   .hiddenGridItem{
-    opacity: 0;
+    opacity: 0 !important;
   }
   #reflectionsBackground{
     background-image: url(../assets/images/1888379.png);
